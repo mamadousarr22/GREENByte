@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: honeydew;
+  color: darkgreen;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: green;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 5px solid darkgreen;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: lightyellow;
+}
+
+main {
+  padding: 30px 20px;
+}
+
+.conseil {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-left: 7px solid red;
+  border-radius: 8px;
+  box-shadow: 0 0 10px gray;
+  transition: transform 0.3s ease;
+}
+
+.conseil:hover {
+  transform: scale(1.02);
+}
+
+.conseil h2 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.conseil p {
+  color: black;
+  line-height: 1.6;
+}
+
+.galerie {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.galerie h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images img {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+  border: 5px solid rgb(177, 51, 51);
+  border-radius: 10px;
+  transition: transform 0.5s, border-color 0.5s;
+}
+
+.images img:hover {
+  transform: rotate(3deg) scale(1.05);
+  border-color: orange;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-top: 5px solid green;
+}

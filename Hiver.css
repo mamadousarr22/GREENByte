@@ -1,13 +1,23 @@
+body {
+    background-color: aliceblue;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
 .A>h1{
+  border: 3px soli black;
     margin-top: 0px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
+    font-weight: 700;
+    text-align: center;
+
 
 }
 .presentationh>p{
-    color: white;
+    color: black;
     font-size: larger;
 }
 .hiverA{
@@ -34,6 +44,141 @@ h2{
     text-align: center;
     color:black;
 }
-body{
-    background-color: black;
+
+.hiverA h3{
+    background-color:white ;
+    color: black;
+    border: 5px solid white;
+
 }
+.hiverB h3{
+    background-color:white ;
+    color: black;
+    border: 5px solid white;
+
+}
+
+.C {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement (si hauteur définie) */
+  height: 50px;           /* pour centrer au milieu de la page */
+}
+
+.C button {
+  padding: 18px 40px; /* padding augmenté */
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+ 
+}
+
+.C button:hover {
+  transform: translateY(-5px) scale(1.05); /* effet de survol */
+  box-shadow: 0 12px 20px rgba(173, 185, 173, 0.4);
+}
+.C button a{
+    text-decoration: black;
+
+}
+
+    footer {
+      background-color: black;
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .link, .contact, .media {
+      margin-bottom: 20px;
+    }
+
+    .link a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .link a:hover {
+      color: white;
+    }
+
+    .contact h3 {
+        text-align: center;
+        color: white;
+      margin: 2px 0;
+      font-size: 24px;
+    }
+
+    .media a {
+      color: white;
+      margin: 0 8px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+.contacter p {
+    border-radius: 5px;
+    color:black;
+    background-color: white;
+    font-size: large;
+    
+}
+    .bottom {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    
+
+
+
+
+
+
+
+    /* Style général pour les images */
+.hiverA img, .hiverB img {
+  transition: transform 0.4s ease;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet au survol de l’image */
+.hiverA img:hover, .hiverB img:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+/* Style des prix */
+.hiverA h3, .hiverB h3 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Effet au survol des prix */
+.hiverA h3:hover, .hiverB h3:hover {
+  transform: translateY(-5px);
+  color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
