@@ -1,0 +1,181 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+ 
+}
+
+nav ul li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.icons {
+  font-size: 22px;
+}
+
+.products {
+  padding: 50px 60px;
+  background: #fff;
+}
+
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.products h2 span {
+  color: black;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.product-card {
+  position: relative;
+  padding: 15px;
+  background:white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card .discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background:  black;
+  color: white;
+  font-size: 14px;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.price {
+  font-size: 16px;
+  color: black;
+}
+
+.price span {
+  color: gray;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: black;
+}
+
+.PANIER {
+  padding: 50px 60px;
+  background-color: white;
+  margin-top: 60px;
+  border-top: 3px solid hotpink;
+  border-radius: 10px;
+}
+
+.PANIER h1 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: hop;
+}
+
+.PANIER h2 {
+  font-size: 20px;
+  margin: 20px 0 10px;
+}
+
+.PANIER label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.PANIER input,
+.PANIER textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#valider-commande button {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .products,
+  .PANIER {
+    padding: 30px 20px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
