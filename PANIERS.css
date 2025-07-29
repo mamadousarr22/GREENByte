@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: rgba(255, 105, 180, 0.493);
   color: #333;
 }
 
@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  background: #fff;
+  background:  rgba(255, 105, 180, 0.493);
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
@@ -61,7 +61,7 @@ nav ul li {
 .product-card {
   position: relative;
   padding: 15px;
-  background:white;
+  background: rgba(255, 105, 180, 0.493);
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
   text-align: center;
@@ -76,7 +76,7 @@ nav ul li {
   position: absolute;
   top: 10px;
   left: 10px;
-  background:  black;
+  background:  rgba(255, 105, 180, 0.493);
   color: white;
   font-size: 14px;
   padding: 3px 6px;
@@ -110,8 +110,8 @@ nav ul li {
 button {
   margin-top: 10px;
   padding: 10px 20px;
-  background: black;
-  color: white;
+  background:  white;
+  color : black;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -124,9 +124,9 @@ button:hover {
 
 .PANIER {
   padding: 50px 60px;
-  background-color: white;
+  background-color:  rgba(255, 105, 180, 0.493);
   margin-top: 60px;
-  border-top: 3px solid hotpink;
+  border-top: 3px solid rgba(255, 105, 180, 0.493);
   border-radius: 10px;
 }
 

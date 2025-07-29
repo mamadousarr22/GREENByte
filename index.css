@@ -213,12 +213,29 @@ body {
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-p{
-  color: black;
+
+
+
+.blog{
+  display: flex;
+  justify-content: space-between;
+  
 }
-.blog {
-   border: 5px solid rgba(0, 0, 0, 0.363);
-  background-color: rgba(0, 0, 0, 0.363);
-  color: white;
-  text-align: center;
+
+.blog a:hover {
+  color: #992f2f1f;
+  transform: translateY(-2px); 
+  cursor: pointer;
+}
+
+.blog p{
+   background-color:rgb(157, 177, 179) ;
+    color: rgb(10, 10, 10);
+    padding: 5px;
+    border-radius: 3px;
+}
+.texte p{
+  color: black;
+  text-align : left;
+  font-size: 25px;
 }
