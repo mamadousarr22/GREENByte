@@ -1,0 +1,224 @@
+.fond{
+    background-image: url('MES IMAGES/IMGDF1.jpg');
+     background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      
+    
+
+
+}
+.fond,h3{
+    background-color: rgba(0, 0, 0, 0.4); /* fond semi-transparent */
+    color: white;
+  padding: 50px 50px;
+  border-radius: 10px;
+  text-align: left;
+   
+    
+}
+
+
+.Accueil{
+    padding-top: 0;
+    text-align: center;
+    border:2px solid rgb(17, 11, 11) ;
+    height: 43px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 14px;
+   
+}
+.Accueil,p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+}
+.Accueil,h4{
+     padding-top: 0px;
+}
+
+.Accueil,a,p{
+    text-decoration: none;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.vente>a>p{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+.vente>a>p:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+.plante{ 
+    margin: 20px;
+    display: flex;
+justify-content: space-between;
+
+
+}
+.fleur{ 
+    margin: 20px;
+    display: flex;
+justify-content: space-between;
+
+
+}
+.pot{ 
+    margin: 20px;
+    display: flex;
+justify-content: space-between;
+
+
+}
+.tout p{
+    padding-top: 0;
+    background-color: black;
+    border: 2px silod black;
+    color: white;
+   
+}
+
+    .saison{ 
+        padding: 20px;
+    margin: 20px;
+    display: flex;
+justify-content: space-between;
+
+
+}
+.presentation>h2{
+    margin-top: 0%;
+    color: white;
+    border: 3px solid black;
+    background-color: black;
+    text-align: center;
+    padding: 4px;
+
+}
+.saison p:hover {
+     transform: translateY(-5px) scale(1.05); /* effet de survol */
+  box-shadow: 0 12px 20px rgba(173, 185, 173, 0.4);
+   background-color: black;
+   color: white;
+}
+
+.saison P{
+    background-color:rgb(19, 19, 18) ;
+    color: rgb(236, 233, 233);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.contacter p {
+    border-radius: 5px;
+    color:black;
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
+body {
+    background-color: aliceblue;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .link, .contact, .media {
+      margin-bottom: 20px;
+    }
+
+    .link a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .link a:hover {
+      color: white;
+    }
+
+    .contact h3 {
+        text-align: center;
+        color: white;
+      margin: 2px 0;
+      font-size: 24px;
+    }
+
+    .media a {
+      color: white;
+      margin: 0 8px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .media a:hover {
+      color: #00cc99;
+    }
+
+    .bottom {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    
+.p1 img, .p2 img, .p3 img, .p4 img,
+.p5 img, .p6 img, .p7 img, .p8 img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Effet zoom sur l'image au survol */
+.p1:hover img,
+.p2:hover img,
+.p3:hover img,
+.p4:hover img,
+.p5:hover img,
+.p6:hover img,
+.p7:hover img,
+.p8:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+p{
+  color: black;
+}
+.blog {
+   border: 5px solid rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+  text-align: center;
+}
